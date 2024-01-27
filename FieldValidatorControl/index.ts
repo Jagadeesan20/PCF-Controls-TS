@@ -8,7 +8,7 @@ export class FieldValidatorControl implements ComponentFramework.StandardControl
     private _errorContainer: HTMLDivElement;
     private _regexPattern: string;
     private _errorMessage: string;
-
+    
     constructor() {}
 
     public init(
